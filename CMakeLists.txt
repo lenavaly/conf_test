@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.7)
 
-project(hello CXX)
+project(conf_test CXX)
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
 conan_basic_setup()
@@ -8,7 +8,7 @@ conan_basic_setup()
 include_directories(include)
 
 set(${PROJECT_NAME}_SRC
-	src/conf_test.cpp
+	src/main.cpp
 )
 
 add_library(${PROJECT_NAME} ${${PROJECT_NAME}_SRC})
