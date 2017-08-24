@@ -1,7 +1,7 @@
 language: cpp
 
 script:
-	- mkdir build && cd build
-	- cmake ..
-	- cmake --build .
-	- ./conf_test
+  - mkdir build && cd build
+  - cmake ..
+  - cmake --build .
+  - ./conf_test
